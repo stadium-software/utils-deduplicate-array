@@ -31,6 +31,7 @@ const uniqueArray = arr.filter((value, index) => {
         return JSON.stringify(objectSorter(obj)) === _value;
     });
 });
+if (arr.length == 0) return arr;
 if (typeof arr[0] == "object") {
     return uniqueArray;
 } else {
