@@ -13,7 +13,7 @@ A script to remove duplicates from any List
 3. Add the output parameter below to the Global Script
    1. DeduplicatedList
 4. Drag a *JavaScript* action into the script
-5. Add the Javascript below into the JavaScript code property
+5. Add the Javascript below unchanged into the JavaScript code property
 ```javascript
 /* Stadium Script Version 1.0 https://github.com/stadium-software/utils-deduplicate-array */
 let arr = ~.Parameters.Input.List;
